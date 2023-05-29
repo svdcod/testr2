@@ -1,0 +1,65 @@
+.contacting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+width: 30%;
+margin-left: 35%;
+    padding: 10px;
+}
+.contacting>input{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid rgb(225, 185, 65);
+}
+.contacting>button{
+    margin-top: 10px;
+}
+.contact_btn{
+    background-color: rgb(233, 243, 94);
+}
+.description{
+height: 80px;
+margin-top: 10px;
+border-radius:20px ;
+border: 2px solid rgb(225, 185, 65);
+}
+.menu_head{
+    margin-top: 5px;
+padding: 5px 10px;
+}
+.contact_us{background-color: rgb(164, 158, 146);
+    background-blend-mode:darken;
+}
+
+*{padding: 0px;}
+.about_img{
+    width: 20%;
+    height: 300px;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 8px 15px;
+    border: 3.5px solid rgb(207, 185, 74);
+}
+.abtBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+width: auto;
+}
+.aboutus{background-color: rgb(141, 137, 126);}
+
+@media only screen and (max-width: 850px) {
+    
+    .about_img{height: 150px;}
+    .contacting{width: 60%;
+    margin-left: 15%;}
+}
+
+@media screen and (max-width: 1100px) {
+    .contacting{width: 60%;
+    margin-left: 15%;}
+}

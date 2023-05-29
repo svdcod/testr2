@@ -1,0 +1,20 @@
+.home_page{box-sizing: border-box;
+background-color:rgb(249, 218, 166) ;
+min-width: 378px;
+opacity: 1;}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+h5{font-size: 22px;
+    padding: 7px 50px;
+}
+h1{
+    padding: 5px;
+    margin: 0px 10px;
+}
+.background{
+    background-image: url("../myimgs/background.jpg");
+    background-blend-mode: darken;
+    background-size: contain;
+}

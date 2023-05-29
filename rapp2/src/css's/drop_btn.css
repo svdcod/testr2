@@ -1,0 +1,50 @@
+#drop_btn{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 8px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(54, 52, 51);
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.hide.clicked{
+    display: block;
+    position: inherit;
+}
+.show{
+    display: none;
+}
+
+#drop_content{
+top: 5px;
+right: 120px;
+    position: absolute;
+    border-radius: 12px;
+    background-color: rgb(94, 170, 224);
+    border: 3px solid white;
+    color: white;
+    font-size: 16px;
+    width: fit-content;
+    font-weight:400;
+    box-shadow:
+    0 0 2px white,
+    0 0 4px white,
+    0 0 10px rgb(231, 247, 63),
+    0 0 12px rgb(250, 167, 1),
+    0 0 15px rgb(253, 199, 73),
+    0 0 20px rgb(236, 239, 54),
+    0 0 30px rgb(234, 243, 70);
+}
+#drop_content>a{color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;}
+
+    @media only screen and (max-width: 1390px) {
+        #drop_content{
+            position: inherit;
+        }
+    }

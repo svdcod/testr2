@@ -1,0 +1,12 @@
+.content_container>h1,h4{
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 92px #0fa,
+        0 0 98px rgb(0, 255, 102);
+    font-family: "Vibur", sans-serif;
+}
+
+@media only screen and (max-width:1390){
+    
+}
